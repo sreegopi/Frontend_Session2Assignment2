@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> HTML5 Form</title>
+
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+	  <form>
+		  <fieldset> 
+			<legend>Your Details</legend> 
+				<div> 
+					<label> Name
+					<input name="name" placeholder="Enter Your Name" type="text"> 
+					</label>
+				</div>
+				<div> 
+					<label>Email 
+					<input name="email" placeholder="example@gmail.com" type="email">
+					</label> 
+				</div> 
+		</fieldset>
+		  <br>
+		  <fieldset> 
+			<legend>Your Review</legend> 
+				<div> 
+					<label> How did you hear about us? 
+						<select>
+							<option selected> Google </option>
+							<option> Adds </option>
+						</select>				
+					</label>
+				</div>
+			  <br>
+				<div> 
+					<label>Would you visit again?</label> <br>
+					<input name="yes" type="radio"> Yes
+					<input name="yes" type="radio"> No
+					<input name="yes" type="radio"> May be
+				</div> 
+			  <br>
+			  <div> 
+					<label>Comments</label> <br>
+					<textarea  name="comments" rows="5"> </textarea>
+			 </div> 
+			  <div> 
+					<input type="checkbox" name="checkbox"> Sign me up for email updates
+			 </div> 
+			   <div> 
+					<button type="button">Submit Review</button>
+			 </div> 
+		</fieldset>
+	  </form>
+		
+  </body>
+</html>
